@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        li:nth-child(2n+1) {
+            color: green;
+            background-color: wheat;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: violet;
+        }
+
+        a.highlighted:hover {
+            color: #ff0000;
+            font-size: 22px;
+        }
+
+        .selector:pseudo-class {
+            property: value;
+        }
+
+        h1::before {
+            content: "Welcome and ";
+        }
+
+        h1::after {
+            content: " and bye ";
+        }
+    </style>
+</head>
+
+<body class="hv">
+    <h1 class="SP">Hello Rumman</h1>
+    <h1>Hello Shaon</h1>
+    <h1>Hello Everyone</h1>
+    <input type="text" name="" id="" class="selector"><br>
+    <input type="text" name="" id="">
+
+
+
+    <ol>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Maria</li>
+    </ol>
+
+    <a href="https://www.youtube.com/watch?v=Vq9S5TzwXRE&ab_channel=MUHAMMADISTATUS" title="Google.com" target="_blank"
+        class="highlighted">Google</a>
+</body>
+
+
+
+</html>

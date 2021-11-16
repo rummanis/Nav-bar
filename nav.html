@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        background-color: green;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+
+    }
+
+    .dop {
+        display: none;
+        position: absolute;
+        background-color: green;
+        padding: 0%;
+    }
+
+    nav>ul>li {
+        float: left;
+    }
+
+    nav>ul>li:hover>ul {
+        display: block;
+    }
+
+    nav a:hover {
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a>
+                <ul class="dop">
+                    <li><a href="">Content Writing</a></li>
+                    <li><a href="">Graphics Designer</a></li>
+                    <li><a href="">Web Designer</a></li>
+                </ul>
+            </li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
