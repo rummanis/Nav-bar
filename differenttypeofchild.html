@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Praise&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Praise', cursive;
+    }
+
+    div>p {
+        background-color: blue;
+    }
+
+    div+p {
+        background-color: blueviolet;
+    }
+
+    div~p {
+        background-color: brown;
+    }
+
+    div>section>p {
+        background-color: burlywood;
+    }
+</style>
+
+<body>
+    <div>
+        <p>Hello one</p>
+        <p>Hello two</p>
+        <p>Hello three</p>
+        <section>
+            <p>Hello four</p>
+            <p>Hello five</p>
+        </section>
+    </div>
+    <p>Hello Six</p>
+    <p>Hello seven</p>
+</body>
+
+</html>
